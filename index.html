@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        body {
+            margin: 0;
+            background-color: #ffffff;
+            color: #666666;
+            font-family: 'Nunito', sans-serif;
+            font-size: 15px;
+            font-weight: 300;
+            scroll-behavior: smooth;
+        }
+        
+        .page-container {
+            width: 900px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        header {
+            position: fixed;
+            top: 0;
+            width: 900px;
+            height: 80px;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .menu-section {
+            display: flex;
+            gap: 25px;
+        }
+
+        .menu-section a {
+            text-decoration: none;
+            color: #2266AA;
+            font-size: 14px;
+            font-weight: 500 !important;
+            transition: color 0.2s ease;
+        }
+
+        .menu-section a:hover {
+            color: #AA6622;
+        }
+
+        main {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            line-height: 1.75;  
+        }
+
+        .content-section {
+            padding-top: 20px;
+            scroll-margin-top: 100px;
+        }
+
+        .content-section h1 {
+            font-weight: 400;
+            font-size: 24px;
+            color: #111111;
+            padding-bottom: 20px;
+        }
+        
+        .content-section h2 {
+            font-weight: 500;
+            font-size: 17px;
+            color: #111111;
+        }
+                
+        .content-section h3 {
+            font-weight: 400;
+            font-size: 15px;
+            color: #111111;
+            margin-bottom: 0;
+        }
+
+        .content-section p {
+            margin-top: 0;
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        .content-section a {
+            text-decoration: none;
+            color: #2266AA;
+            font-size: 15px;
+            font-weight: 300;
+        }
+        
+        .content-section a:hover {
+            color: #AA6622;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="page-container">
+        <header>
+            <nav class="menu-section">
+                <a href="#home">HOME</a> 
+                <a href="#papers">RESEARCH PAPERS</a>
+                <a href="#expository">EXPOSITORY NOTES</a>
+                <a href="#others">OTHERS</a>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="home" class="content-section">
+                <h1> ASHWIN SUNDHARARAJAN</h1>
+                <img src="profile.jpg" align=right style="width: 300px; padding-left: 50px; padding-top: 5px; padding-bottom: 25px;">
+                <p width=640> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt finibus fermentum. Aenean nec metus 
+                congue leo iaculis ornare. Sed ut enim maximus dui sodales varius sed vitae dolor. Morbi sollicitudin placerat 
+                mauris, eu sollicitudin enim tincidunt ac. <a href="http://www.google.com", target="_blank"> Cras nec convallis 
+                nunc, </a> a ullamcorper orci. Nunc scelerisque leo id tincidunt varius. Pellentesque vulputate quam mi, ac 
+                cursus libero posuere non. Ut aliquet tincidunt eros, in suscipit. Nam quis metus at erat semper viverra lacinia 
+                ut odio. <a href="http://www.google.com", target="_blank"> Interdum et malesuada fames </a> ac ante ipsum primis 
+                faucibus. Vivamus auctor nisi id ante blandit, sed sollicitudin turpis finibus. Fusce lacinia massa nec congue 
+                placerat. Aenean congue purus lectus, ut auctor leo luctus ultricies. Aliquam suscipit accumsan hendrerit. 
+                
+                <br><br>
+
+                Maecenas fermentum rhoncus nisi, eu egestas lorem maximus ut. Nam finibus risus non finibus tincidunt. Donec in 
+                mauris nibh. Donec elementum tincidunt tristique. <a href="http://www.google.com", target="_blank"> Nullam vel 
+                eros efficitur, </a> vulputate lorem id, sagittis lectus. Proin iaculis, augue et tincidunt finibus, velit erat 
+                placerat odio, at blandit lectus mauris ut metus. Nullam a neque facilisis, maximus enim sit amet, iaculis nisl. 
+                Duis quis mauris nec nisl luctus tincidunt. Proin bibendum tortor id mollis sollicitudin. Nam vitae placerat augue, 
+                eget pulvinar ante.</p>           
+            </section>
+
+            <section id="papers" class="content-section">            
+                <h2>RESEARCH PAPERS</h2>
+                
+                    <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
+                    <p> Maecenas fermentum rhoncus nisi, eu egestas lorem maximus ut. Nam finibus risus non finibus tincidunt. 
+                        Donec in mauris nibh. Donec elementum tincidunt tristique. Nullam vel eros efficitur, vulputate lorem 
+                        id, sagittis lectus. <a href="research_papers/research_test1.pdf", target="_blank"> link </a> </p>
+
+                    <h3> Maecenas fermentum rhoncus nisi, eu egestas lorem maximus ut. </h3>
+                    <p> Maecenas fermentum rhoncus nisi, eu egestas lorem maximus ut. Nam finibus risus non finibus tincidunt. 
+                        Donec in mauris nibh. Donec elementum tincidunt tristique. Nullam vel eros efficitur, vulputate lorem 
+                        id, sagittis lectus. <a href="research_papers/research_test1.pdf", target="_blank"> link </a> </p>                    
+
+                    <h3> Vivamus tincidunt finibus fermentum. Aenean nec metus congue leo iaculis ornare. </h3>
+                    <p> eu sollicitudin enim tincidunt ac. Cras nec convallis nunc, a ullamcorper orci. Nunc scelerisque leo 
+                        id tincidunt varius. Pellentesque vulputate quam mi, ac cursus libero posuere non. Ut aliquet tincidunt 
+                        eros, in suscipit magna porta at. <a href="research_papers/research_test1.pdf", target="_blank"> link </a> </p>
+
+                    <h3> Maecenas fermentum rhoncus nisi, eu egestas lorem maximus ut. </h3>
+                    <p> Maecenas fermentum rhoncus nisi, eu Donec elementum tincidunt tristique. Nullam vel eros efficitur, vulputate 
+                        lorem Donec elementum tincidunt tristique. Nullam vel eros efficitur, vulputate lorem id, sagittis lectus.id, 
+                        sagittis lectus.egestas lorem maximus ut. Nam finibus risus non finibus tincidunt. Donec in mauris nibh. Donec 
+                        elementum tincidunt tristique. Nullam vel eros efficitur, vulputate lorem id, sagittis lectus. 
+                        <a href="research_papers/research_test1.pdf", target="_blank"> link </a> </p>  
+            </section>
+            
+            <section id="expository" class="content-section">            
+                <h2>EXPOSITORY NOTES</h2>
+            
+                <h3>Probability and Markov Chains</h3>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        <a href="expository_notes/expository_test1.pdf", target="_blank"> pdf </a></li>
+                    <li>Vivamus tincidunt finibus fermentum. Aenean nec metus congue leo iaculis ornare. 
+                        <a href="expository_notes/expository_test1.pdf", target="_blank"> pdf </a></li>
+                </ul>
+                
+                <h3>Linear and Abstract Algebra</h3>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        <a href="expository_notes/expository_test1.pdf", target="_blank"> pdf </a></li>
+                    <li>Vivamus tincidunt finibus fermentum. Aenean nec metus congue leo iaculis ornare. 
+                        <a href="expository_notes/expository_test1.pdf", target="_blank"> pdf </a></li>
+                </ul>
+                
+                <h3>Real Analysis</h3>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        <a href="expository_notes/expository_test1.pdf", target="_blank"> pdf </a></li>
+                    <li>Vivamus tincidunt finibus fermentum. Aenean nec metus congue leo iaculis ornare. 
+                        <a href="expository_notes/expository_test1.pdf", target="_blank"> pdf </a></li>
+                    <li>Maecenas fermentum rhoncus nisi, eu egestas lorem maximus ut. 
+                        <a href="expository_notes/expository_test1.pdf", target="_blank"> pdf </a></li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        <a href="expository_notes/expository_test1.pdf", target="_blank"> pdf </a></li>
+                    <li>Vivamus tincidunt finibus fermentum. Aenean nec metus congue leo iaculis ornare. 
+                        <a href="expository_notes/expository_test1.pdf", target="_blank"> pdf </a></li>
+                    <li>Maecenas fermentum rhoncus nisi, eu egestas lorem maximus ut. 
+                        <a href="expository_notes/expository_test1.pdf", target="_blank"> pdf </a></li>
+                </ul>
+            </section>
+
+            <section id="others" class="content-section">            
+                <h2>OTHERS</h2>
+            
+                <h3>Swimming</h3>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        <a href="test.pdf", target="_blank"> link </a></li>
+                    <li>Vivamus tincidunt finibus fermentum. Aenean nec metus congue leo iaculis ornare. 
+                        <a href="test.pdf", target="_blank"> link </a></li>
+                </ul>
+                
+                <h3> Music Composition and Performance </h3>
+                <ul>
+                    <li>Rock and metal guitar compositions -
+                        <a href="test.pdf", target="_blank"> link </a></li>
+                    <li>Jazz guitar compositions -  
+                        <a href="test.pdf", target="_blank"> link </a></li>
+                    <li>Piano compositions -
+                        <a href="test.pdf", target="_blank"> link </a></li>
+                    <li>Piano performances -
+                        <a href="https://www.youtube.com/watch?v=nFCLBfiTkAU", target="_blank"> link </a></li>
+                </ul>
+            </section>
+        </main>    
+    </div>           
+</body>
+</html>
